@@ -1,0 +1,35 @@
+@import './variables.scss';
+
+* {
+  box-sizing: border-box;
+}
+body{
+  padding: 0;
+  margin:0;
+}
+
+header{
+  width:100vw;
+  height:55px;
+  padding:5px;
+  position: sticky;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content: space-between;
+  background-color: $red-color;
+  img{
+    width:45px;
+    height:45px;
+  }
+}
+
+nav{
+
+  a{
+    text-decoration:none;
+    font-family: 'Varela Round', sans-serif;
+    color : $yellow-color;
+    margin:auto 1vw auto 1vw;
+  }
+}
